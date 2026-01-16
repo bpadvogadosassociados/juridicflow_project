@@ -82,6 +82,16 @@ JAZZMIN_SETTINGS = {
         "deadlines",
         "documents",
     ],
+
+    "hide_models": [
+        "customers.Customer",
+        "processes.Process",
+        "processes.ProcessParty",
+        "deadlines.Deadline",
+        "documents.Document",
+        "finance.FeeAgreement",
+        "finance.Payment", 
+    ],
     
     # ===== ÍCONES =====
     "icons": {
